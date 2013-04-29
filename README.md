@@ -6,12 +6,10 @@ Java class of the Vigenere cipher
 
 * Usage (Method 1): 
 
- ``` System.out.print(new VigenereCipher(keyword, text)); ```
+ ```java System.out.print(new VigenereCipher(keyword, text)); ```
  
 @param String keyword (Required)
-
 @param String text    (Required)
-
 @return the text encrypted
 
 * Usage (Method 2):

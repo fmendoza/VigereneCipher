@@ -6,24 +6,24 @@ Java class of the Vigenere cipher
 
 * Usage (Method 1): 
 
- ```java System.out.print(new VigenereCipher(keyword, text)); ```
- 
-@param String keyword (Required)
-@param String text    (Required)
-@return the text encrypted
+ - @param String keyword (required)
+ - @param String text    (required)
+ - @return the text encrypted
+
+ ```java
+ System.out.print(new VigenereCipher(keyword, text)); 
+ ```
 
 * Usage (Method 2):
 
 
- ``` VigenereCipher obj = new VigenereCipher(); ```
- 
- ``` obj.setKeyword(keyword); ```
- 
- ``` obj.setText(text); ```
- 
- ``` obj.encrypt(); ```
- 
- ``` System.out.print(obj.getCipherText()); ```
+ ```java
+ VigenereCipher obj = new VigenereCipher();
+ obj.setKeyword(keyword);
+ obj.setText(text);
+ obj.encrypt();
+ System.out.print(obj.getCipherText());
+ ```
  
  
  

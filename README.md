@@ -8,17 +8,22 @@ Java class of the Vigenere cipher
 
  ``` System.out.print(new VigenereCipher(keyword, text)); ```
  
- - @param String keyword (Required)
- - @param String text    (Required)
- - @return the text encrypted
+@param String keyword (Required)
+@param String text    (Required)
+@return the text encrypted
 
 * Usage (Method 2):
 
 
  ``` VigenereCipher obj = new VigenereCipher(); ```
+ 
  ``` obj.setKeyword(keyword); ```
+ 
  ``` obj.setText(text); ```
+ 
  ``` obj.encrypt(); ```
+ 
  ``` System.out.print(obj.getCipherText()); ```
+ 
  
  

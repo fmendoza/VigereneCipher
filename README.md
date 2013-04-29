@@ -9,7 +9,9 @@ Java class of the Vigenere cipher
  ``` System.out.print(new VigenereCipher(keyword, text)); ```
  
 @param String keyword (Required)
+
 @param String text    (Required)
+
 @return the text encrypted
 
 * Usage (Method 2):
